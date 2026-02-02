@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using System.Globalization;
+using Microsoft.VisualBasic;
 
 namespace H10_DayOfTheWeek
 {
@@ -6,18 +7,20 @@ namespace H10_DayOfTheWeek
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("What day?");
+            Console.WriteLine("Welke dag?");
             int day = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine("What month?");
+            Console.WriteLine("Welke maand?");
             int month = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("What year?");
+            Console.WriteLine("Welk jaar?");
             int year = Convert.ToInt32(Console.ReadLine());
 
             DateTime date = new DateTime(year, month, day);
-            Console.WriteLine($"{date.ToString("dd MMMM yyyy")} is a {date.DayOfWeek}");
+
+            CultureInfo belgianCI = new CultureInfo("nl-BE");
+
+            Console.WriteLine($"{date.ToString("d MMMM yyyy", belgianCI)} is een {date.ToString("dddd")}"); // geen DayOfWeek gebruiken
         }
     }
 }
