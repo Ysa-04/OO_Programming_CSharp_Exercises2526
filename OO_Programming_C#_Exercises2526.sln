@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-DayOfTheWeek", "H10-Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-TicksSince2000", "H10-TicksSince2000\H10-TicksSince2000.csproj", "{04BFE163-25FF-4ECF-BB7C-777C4266AA71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-LeapYearCount", "H10-LeapYearCount\H10-LeapYearCount.csproj", "{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{04BFE163-25FF-4ECF-BB7C-777C4266AA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BFE163-25FF-4ECF-BB7C-777C4266AA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04BFE163-25FF-4ECF-BB7C-777C4266AA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
