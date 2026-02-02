@@ -1,19 +1,23 @@
-﻿namespace H10_DayOfTheWeek
+﻿using Microsoft.VisualBasic;
+
+namespace H10_DayOfTheWeek
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welke dag?");
+            
+            Console.WriteLine("What day?");
             int day = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Welke maand? (in getal)");
+            
+            Console.WriteLine("What month?");
             int month = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Welk jaar?");
+
+            Console.WriteLine("What year?");
             int year = Convert.ToInt32(Console.ReadLine());
 
-            string date = $"{day}/{month}/{year}";
-
-            
+            DateTime date = new DateTime(year, month, day);
+            Console.WriteLine($"{date.ToString("dd MMMM yyyy")} is a {date.DayOfWeek}");
         }
     }
 }

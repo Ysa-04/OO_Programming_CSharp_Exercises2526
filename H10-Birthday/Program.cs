@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.Write("Wanneer is je verjaardag? (DD/MM) ");
-            DateTime userBirthday = DateTime.Parse(Console.ReadLine());
+            DateTime userBirthday = Convert.ToDateTime(Console.ReadLine());
             DateTime today = DateTime.Today;
 
             DateTime birthdayThisYear = new DateTime(today.Year, userBirthday.Month, userBirthday.Day);
