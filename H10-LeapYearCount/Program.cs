@@ -14,8 +14,6 @@
                 }
             }
             Console.WriteLine($"Er zijn {leapYearCount} schrikkeljaren tussen 1799 en 2021");
-
-            
         }
     }
 }

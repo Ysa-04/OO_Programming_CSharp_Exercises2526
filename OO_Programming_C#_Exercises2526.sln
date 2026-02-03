@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO_Programming_C#_Exercises2526", "OO_Programming_C#_Exercises2526\OO_Programming_C#_Exercises2526.csproj", "{EA3B9902-520D-4CCF-BA9B-D8783B2988EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-Clock", "H10-Clock\H10-Clock.csproj", "{B412D23E-E4FF-4580-9181-6A37DE00A82A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-Birthday", "H10-Birthday\H10-Birthday.csproj", "{736C38BC-8923-44B8-9096-C25599CBD558}"
@@ -15,16 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-TicksSince2000", "H10-T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-LeapYearCount", "H10-LeapYearCount\H10-LeapYearCount.csproj", "{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-CodeTiming", "H10-CodeTiming\H10-CodeTiming.csproj", "{09AE6072-ED49-4633-A897-20D795A58A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-CombinationOf2Numbers", "H10-CombinationOf2Numbers\H10-CombinationOf2Numbers.csproj", "{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA3B9902-520D-4CCF-BA9B-D8783B2988EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA3B9902-520D-4CCF-BA9B-D8783B2988EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA3B9902-520D-4CCF-BA9B-D8783B2988EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA3B9902-520D-4CCF-BA9B-D8783B2988EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B412D23E-E4FF-4580-9181-6A37DE00A82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B412D23E-E4FF-4580-9181-6A37DE00A82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B412D23E-E4FF-4580-9181-6A37DE00A82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +43,14 @@ Global
 		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DDEAA11-5DF2-4904-B75C-37BDBC8811E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AE6072-ED49-4633-A897-20D795A58A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AE6072-ED49-4633-A897-20D795A58A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AE6072-ED49-4633-A897-20D795A58A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AE6072-ED49-4633-A897-20D795A58A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
