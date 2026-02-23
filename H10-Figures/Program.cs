@@ -54,8 +54,13 @@
 
             public Triangle(double height, double width)
             {
-                Height = height;
-                Width = width;
+                this.Height = height;
+                this.Width = width;
+            }
+
+            public Triangle()
+            {
+
             }
 
             public double Area
@@ -104,8 +109,12 @@
             }
             public Rectangle(double height, double width)
             {
-                Height = height;
-                Width = width;
+                this.Height = height;
+                this.Width = width;
+            }
+            public Rectangle()
+            {
+
             }
             public double Area
             {
