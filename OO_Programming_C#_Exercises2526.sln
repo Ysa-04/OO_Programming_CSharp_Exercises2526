@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-CodeTiming", "H10-CodeT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-CombinationOf2Numbers", "H10-CombinationOf2Numbers\H10-CombinationOf2Numbers.csproj", "{E8379D3F-5FAD-42B4-A501-F6CFBEF3BC37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-Figures", "H10-Figures\H10-Figures.csproj", "{1FB2313F-29A4-4936-9E55-730CBA6ACC6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H11-FiguresWithConstructor", "H10-Figures\H11-FiguresWithConstructor.csproj", "{1FB2313F-29A4-4936-9E55-730CBA6ACC6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,22 +10,13 @@
         {
             public Figures()
             {
-                Triangle triangle1 = new Triangle();
-                Triangle triangle2 = new Triangle();
-                Rectangle rectangle1 = new Rectangle();
-                Rectangle rectangle2 = new Rectangle();
-                rectangle1.Width = -1;
-                rectangle1.Width = 0;
-                rectangle1.Width = 2.2;
-                rectangle1.Height = 1.5;
-                rectangle2.Width = 3;
+                Triangle triangle1 = new Triangle(-1, 1.0);
+                Triangle triangle2 = new Triangle(3,0);
+                Rectangle rectangle1 = new Rectangle(2.2, 1.5);
+                Rectangle rectangle2 = new Rectangle(3,1);
 
                 rectangle1.DemoFigures();
                 rectangle2.DemoFigures();
-
-                triangle1.Width = 3;
-                triangle2.Width = 2;
-                triangle2.Height = 2;
 
                 triangle1.DemoFigures();
                 triangle2.DemoFigures();
@@ -34,9 +25,8 @@
 
         internal class Triangle
         {
-            private double height = 1.0;
-            private double width = 1.0;
 
+            private double height;
             public double Height
             {
                 get { return height; }
@@ -52,7 +42,7 @@
                     }
                 }
             }
-
+            private double width;
             public double Width
             {
                 get { return width; }
@@ -68,6 +58,13 @@
                     }
                 }
             }
+
+            public Triangle(double height, double width)
+            {
+                Height = height;
+                Width = width;
+            }
+
             public double Area
             {
                 get { return (width * height) / 2; }
@@ -80,9 +77,7 @@
 
         internal class Rectangle
         {
-            private double height = 1.0;
-            private double width = 1.0;
-
+            private double height;
             public double Height
             {
                 get { return height; }
@@ -98,7 +93,7 @@
                     }
                 }
             }
-
+            private double width;
             public double Width
             {
                 get { return width; }
@@ -113,6 +108,11 @@
                         width = value;
                     }
                 }
+            }
+            public Rectangle(double height, double width)
+            {
+                Height = height;
+                Width = width;
             }
             public double Area
             {
