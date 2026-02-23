@@ -1,4 +1,4 @@
-﻿namespace H10_Figures
+﻿namespace H11_FiguresWithConstructor
 {
     internal class Program
     {
