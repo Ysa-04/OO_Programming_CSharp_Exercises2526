@@ -4,23 +4,16 @@
     {
         static void Main(string[] args)
         {
-            new Figures();
-        }
-        internal class Figures
-        {
-            public Figures()
-            {
-                Triangle triangle1 = new Triangle(-1, 1.0);
-                Triangle triangle2 = new Triangle(3,0);
-                Rectangle rectangle1 = new Rectangle(2.2, 1.5);
-                Rectangle rectangle2 = new Rectangle(3,1);
+            Triangle triangle1 = new Triangle(-1, 1.0);
+            Triangle triangle2 = new Triangle(3, 0);
+            Rectangle rectangle1 = new Rectangle(2.2, 1.5);
+            Rectangle rectangle2 = new Rectangle(3, 1);
 
-                rectangle1.DemoFigures();
-                rectangle2.DemoFigures();
+            rectangle1.DemoFigures();
+            rectangle2.DemoFigures();
 
-                triangle1.DemoFigures();
-                triangle2.DemoFigures();
-            }
+            triangle1.DemoFigures();
+            triangle2.DemoFigures();
         }
 
         internal class Triangle
