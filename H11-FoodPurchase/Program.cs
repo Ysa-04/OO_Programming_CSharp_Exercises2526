@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             FoodPurchase kaas = new FoodPurchase("Kaas", 2, 2.45, true);
-            FoodPurchase boter = new FoodPurchase("Boter", 0, 5555, true);
             DemoPurchase(kaas);
+            FoodPurchase boter = new FoodPurchase("Boter", 0, 5555, true);
             DemoPurchase(boter);
         }
 
