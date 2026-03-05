@@ -9,7 +9,7 @@
         public static void PhoneBookNumber()
         {
             Dictionary<string, string> phoneBook = new Dictionary<string, string>();
-            Console.WriteLine("Wil je een naam en nnummer inlezen?");
+            Console.WriteLine("Wil je een naam en nummer inlezen?");
             string input = Console.ReadLine();
             bool loop = false;
             if (input == "ja")
