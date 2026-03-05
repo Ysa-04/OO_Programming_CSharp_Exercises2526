@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H11-FiguresWithConstructor"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H11-FoodPurchase", "H11-FoodPurchase\H11-FoodPurchase.csproj", "{F4E6A875-4407-4C57-A695-F4ABD5FB3829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H13-PhoneBookNameNumber", "H13-PhoneBookNameNumber\H13-PhoneBookNameNumber.csproj", "{A4DBA157-2A2A-413E-8E89-069B42B27911}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F4E6A875-4407-4C57-A695-F4ABD5FB3829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E6A875-4407-4C57-A695-F4ABD5FB3829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E6A875-4407-4C57-A695-F4ABD5FB3829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DBA157-2A2A-413E-8E89-069B42B27911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DBA157-2A2A-413E-8E89-069B42B27911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DBA157-2A2A-413E-8E89-069B42B27911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DBA157-2A2A-413E-8E89-069B42B27911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
